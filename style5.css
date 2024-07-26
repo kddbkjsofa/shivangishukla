@@ -1,0 +1,96 @@
+/* body {
+  text-align: center;
+}
+div {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+#container {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+/* align-items: flex-start; */
+/* align-content: flex-end; */
+/* }
+
+#box1 {
+  background-color: aquamarine;
+}
+
+#box2 {
+  background-color: burlywood;
+  height: 200px;
+  align-self: flex-start;
+  flex-shrink: 0.5;
+}
+
+#box3 {
+  background-color: blue;
+  height: 50px;
+}
+#box4 {
+  background-color: blueviolet;
+  height: 50px;
+}
+
+#box5 {
+  background-color: brown;
+}  */
+/* .navbar {
+  background-color: palevioletred;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+.outer {
+  height: 400px;
+  width: 400px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  align-self: flex-start;
+} */
+div {
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+}
+
+@media (width: 600px) {
+  div {
+    background-color: red;
+  }
+}
+
+@media (mix-width: 600px) {
+  div {
+    background-color: green;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+  div {
+    background-color: blue;
+  }
+}
